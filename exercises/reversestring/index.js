@@ -2,11 +2,8 @@
 // Given a string, return a new string with the reversed
 // order of characters
 // --- Examples
-  console.log(reverse('apple'))
-  console.log(reverse('hello'))
-  console.log(reverse('Greetings!'))
 
-function reverse(str) {
+function reverseFor(str) {
   let reversed = '';
 
   for (let char = str.length - 1; char >= 0 ; char--) {
@@ -16,6 +13,6 @@ function reverse(str) {
   return reversed;
 }
 
-
+const reverse = (str) => str.split('').reverse().join('');
 
 module.exports = reverse;

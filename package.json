@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wbroberts/AlgoCasts#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
   }
 }
