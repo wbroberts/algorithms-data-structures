@@ -2,10 +2,20 @@
 // Given a string, return a new string with the reversed
 // order of characters
 // --- Examples
-//   reverse('apple') === 'leppa'
-//   reverse('hello') === 'olleh'
-//   reverse('Greetings!') === '!sgniteerG'
+  console.log(reverse('apple'))
+  console.log(reverse('hello'))
+  console.log(reverse('Greetings!'))
 
-function reverse(str) {}
+function reverse(str) {
+  let reversed = '';
+
+  for (let char = str.length - 1; char >= 0 ; char--) {
+    reversed += str[char];
+  }
+
+  return reversed;
+}
+
+
 
 module.exports = reverse;
