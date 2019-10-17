@@ -1,3 +1,4 @@
 # AlgoCasts
 
-Companion repo to a course on Udemy.com
+This is a repo forked from Stephen Grinder from Udemy to practice implementing some basic algorithms and data structures in javascript.
+
