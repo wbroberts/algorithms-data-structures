@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wbroberts/AlgoCasts/issues"
   },
-  "homepage": "https://github.com/wbroberts/AlgoCasts#readme"
+  "homepage": "https://github.com/wbroberts/AlgoCasts#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
