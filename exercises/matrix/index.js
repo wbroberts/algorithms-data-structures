@@ -16,12 +16,7 @@
 //     [10,  9,  8, 7]]
 
 function matrix(n) {
-  const matrix = [];
-
-  for (let i = 0; i < n; i++) {
-    matrix.push([]);
-  }
-
+  const matrix = createArrayOfArrays(n);
   let top = 0;
   let bottom = n - 1;
   let left = 0;
@@ -67,6 +62,16 @@ function matrix(n) {
   }
 
   return matrix;
+}
+
+function createArrayOfArrays(n) {
+  const arr = [];
+
+  for (let i = 0; i < n; i++) {
+    arr.push([]);
+  }
+
+  return arr;
 }
 
 module.exports = matrix;
